@@ -21,3 +21,33 @@ Both VRP_Move1 and VRP_Move2 classes have methods to compare, output, and input 
 * VRP_DistanceCost and VRP_Premi: Two cost components that calculate the cost of a state based on the distance and premium cost, respectively.
 * VRP_MoveDeltaDistanceCost and VRP_MoveDeltaPremi: Two classes that calculate the change in cost when a move is made.
 * VRP_Move1NeighborhoodExplorer and VRP_Move2NeighborhoodExplorer: Two neighborhood explorer classes that implement a set of moves for exploring the neighborhood of a state and finding a better solution.
+
+
+
+# VRP Input File
+
+NAME chri100
+
+MAXVEHICLES 15
+MAXCAPACITY 200
+MAXTIME 200
+
+DEPOT 35 35
+
+CUSTOMERS 100
+
+CUSTOMERDATA
+41 49 10 10 7.00
+35 17 7 10 5.00
+55 45 13 10 10.00
+55 20 19 10 13.00
+15 30 26 10 31.00
+25 30 3 10 3.00
+20 50 5 10 6.00
+10 43 9 10 11.00
+55 60 16 10 13.00
+30 60 16 10 10.00
+20 65 12 10 16.00
+50 35 19 10 10.00
+30 25 23 10 23.00
+15 10 20 10 23.00
